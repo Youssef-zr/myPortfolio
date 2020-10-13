@@ -155,4 +155,5 @@
   checkInputkeyUp(name);
   isEmailField(email);
   checkInputkeyUp(message);
-})(jQuery);
+  
+});
