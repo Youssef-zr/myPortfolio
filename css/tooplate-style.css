@@ -187,6 +187,7 @@ strong {
 }
 .navbar-brand {
   font-weight: bold;
+  cursor: pointer;
 }
 .navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;

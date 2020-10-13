@@ -56,8 +56,7 @@ $(document).ready(function () {
   $("#current-year").html(new Date().getFullYear());
 
   // BACK TO TOP BUTTON
-  let $btnBackTop = $(".back-top");
-  $btnBackTop.on("click", () => {
+  $(".back-top,.logo").on("click", () => {
     $("html,body").animate(
       {
         scrollTop: 0,
@@ -66,6 +65,7 @@ $(document).ready(function () {
     );
   });
 
+  let $btnBackTop = $(".back-top");
   $(window).on("scroll", function () {
     if ($(this).scrollTop() >= 600) {
       $btnBackTop.fadeIn(500);
