@@ -1,4 +1,4 @@
-(function ($) {
+$(document).ready(function () {
   "use strict";
 
   // LOADING PAGE
@@ -155,5 +155,4 @@
   checkInputkeyUp(name);
   isEmailField(email);
   checkInputkeyUp(message);
-  
 });
