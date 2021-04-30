@@ -408,8 +408,19 @@ strong {
   height: 100px;
   padding-top: 15px;
   transition: 0.4s ease;
-  background: #474559;
+  background: #e75051;
   overflow: hidden;
+}
+
+.btn-show{
+  background:#e75051;
+  color:#fff !important;
+  padding:8px 0 !important;
+  transition:ease .5s
+}
+
+.btn-show:hover{
+  color:#eee !important;
 }
 
 .owl-carousel .project-info .more::before,
@@ -418,12 +429,12 @@ strong {
   position: absolute;
   border-width: 25px;
   border-style: solid;
-  border-color: transparent transparent transparent #00b0ff;
+  border-color: transparent transparent transparent #fff;
   top: 0;
   left: 0;
 }
 .owl-carousel .project-info .more::after {
-  border-color: transparent #00b0ff transparent transparent;
+  border-color: transparent #fff transparent transparent;
   left: auto;
   right: 0;
 }
@@ -451,9 +462,7 @@ strong {
   z-index: 5;
   border-radius: 0;
 }
-.owl-carousel .project-info .more .btn:hover {
-  color: #ccc !important;
-}
+
 .owl-theme .owl-nav [class*="owl-"] {
   background: none;
   border-radius: 0;
