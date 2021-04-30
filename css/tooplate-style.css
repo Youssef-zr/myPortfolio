@@ -367,7 +367,7 @@ strong {
   margin-left: 6em;
 }
 .timeline-info small {
-  color: #474559;
+  color: #e75051;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
@@ -421,6 +421,14 @@ strong {
 
 .btn-show:hover{
   color:#eee !important;
+}
+
+.btn-show:active,
+.btn-show:link,
+.btn-show:visited{
+  border: none !important;
+  border-top-color: white !important;
+  outline: none !important;
 }
 
 .owl-carousel .project-info .more::before,
